@@ -3,6 +3,32 @@ body {
   font-family: "Lucida Console"
 }
 
+nav {
+  list-style-type: none;
+  background-color: #66b2b2 ;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 5;
+  margin: 0;
+  overflow: hidden;
+  position: fixed; 
+}
+
+li a {
+  display: block;
+  color: #004c4c;
+  text-decoration: none;
+  padding: 14px 18px;
+}
+
+li {
+  float: left;
+}
+
+li a:hover {
+  background-color: #b2d8d8; 
+}
 
 h1 {
  color: #004c4c;
